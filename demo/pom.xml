@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.taskadapter</groupId>
 			<artifactId>redmine-java-api</artifactId>
-			<version>1.14</version>
+			<version>4.0.0.rc2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -47,6 +47,10 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
